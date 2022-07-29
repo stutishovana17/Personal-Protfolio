@@ -1,0 +1,33 @@
+.container{
+   max-width: 1000px;
+   margin: auto;
+   background: #f2f2f2;
+   overflow: auto; 
+
+}
+.gallery{
+    margin: 10px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 1000px;
+
+}
+.gallery img{
+  width:100%;
+  height:auto;   
+
+}
+.desc{
+    padding: 15px;
+    text-align:center;
+}
+/*footer{
+    padding: 10px;
+    font: size 17px;
+    font-weight: bold;
+    text-align:center;
+    background:#594848;
+    color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}

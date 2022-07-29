@@ -1,0 +1,118 @@
+*{
+    font-family: Gill Sans,sans-serif;
+    list-style:none;
+    padding: 0;
+    margin:0;
+}
+body{
+    background:#333;
+    text-transform: uppercase;
+}
+h1{
+   text-align: center; 
+}
+h3{
+    margin: 5px;
+}
+.skills{
+    width: 500px;
+    margin:60px auto;
+    color:black;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+
+
+}
+.skills li{
+    margin: 20px;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border:1px solid rgba(0,0,0,0.3);
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,0.8,0.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float:left;
+    background:linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.java{
+    width:90%;
+    animation: java 3s;
+}
+ .html{
+    width:60%;
+    animation: html 3s;
+}
+.css{
+    width:40%;
+    animation: css 3s;
+}
+.php{
+    width:90%;
+    animation: php 3s;
+}
+.javascript{
+    width:60%;
+    animation: javascript 3s;
+}
+.mysql{
+    width:70%;
+    animation: mysql 3s;
+}
+@keyframes java {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes html {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:60%;
+    }
+}
+@keyframes css {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:40%;
+    }
+}
+@keyframes php {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes javascript {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes mysql {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+}
